@@ -2,10 +2,10 @@ import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 import streamlit as st
-from PIL import Image, ImageOps
+# from PIL import Image
 import matplotlib.pyplot as plt
 from skimage.transform import resize
-import cv2
+# import cv2
 
 classification = ['airplane', 'autombile', 'bird', 'cat',
                   'deer', 'dog', 'frog', 'horse', 'ship', 'truck']

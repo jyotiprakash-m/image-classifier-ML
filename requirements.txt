@@ -1,8 +1,5 @@
 streamlit
 numpy
-Pillow
-tensorflow==1.5.1
-opencv-python-headless
-matplotlib
+tensorflow
 scikit-image
-h5py==2.10.0
+matplotlib
