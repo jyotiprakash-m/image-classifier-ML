@@ -5,4 +5,4 @@ tensorflow==1.5.1
 opencv-python-headless
 matplotlib
 scikit-image
-h5py
+h5py==2.10.0
