@@ -2,10 +2,8 @@ import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 import streamlit as st
-# from PIL import Image
 import matplotlib.pyplot as plt
 from skimage.transform import resize
-# import cv2
 
 classification = ['airplane', 'autombile', 'bird', 'cat',
                   'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
@@ -23,7 +21,7 @@ st.write("""
     # Image classifier
 
 """)
-st.write('This program can classify the image between airplane,autombile,bird,cat,deer,dog,frog,horse,ship and truck')
+st.write('This program can classify the image between airplane, autombile, bird, cat, deer, dog, frog,  horse, ship and truck')
 
 file = st.file_uploader('Please upload an image', type=['jpg', 'jpeg', 'png'])
 
